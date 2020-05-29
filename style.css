@@ -1,0 +1,20 @@
+body {
+  padding: 10px;
+  margin: 0;
+}
+
+.img.tooltip span{
+  display: none;
+}
+
+.img.tooltip:hover span, .img.tooltip:focus span {
+    display:block;
+    position:absolute;
+    top:1em;
+    left:1.5em;
+    padding: 0.2em 0.6em;
+    border:1px solid #996633;
+    background-color:#FFFF66;
+    color:#000;
+    border-radius: 30%;
+}
